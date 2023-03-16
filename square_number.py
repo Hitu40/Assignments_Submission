@@ -4,3 +4,9 @@ num_list = [4,5,2,9]
 squares= list(map(lambda x: x**2, num_list))
 
 print(squares)
+
+
+'''
+Output: 
+[16, 25, 4, 81]
+'''
