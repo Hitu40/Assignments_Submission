@@ -6,3 +6,8 @@ tripled_nums = list(map(triple, nums))
 
 
 print(tripled_nums)
+
+'''
+Output: 
+[3, 6, 9, 12, 15, 18, 21]
+'''
