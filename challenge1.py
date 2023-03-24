@@ -1,21 +1,20 @@
-class Student :
-    def __init__(self,schoolname,sname,div):
-        self.schoolname = schoolname
-        self.sname = sname
-        self.div = div
+class Point:
 
-    def details(self):
-        print(f"school: {self.schoolname}\n Name : {self.sname}\n Div : {self.div}")
+    def __init__(self, x,y,z):
+        self.x = x
+        self.y = y
+        self.z = z
 
-S1 = Student ("ABC TRUST", "YOGI", "10 CLASS A")
-print(S1)
-S1.details()
+    def sqSum(self):
+        return (self.x * self.x)+(self.y * self.y)+(self.z * self.z)
 
+
+p = Point(1, 3, 5)
+
+print(p.sqSum())
 
 '''
 Output:
 
-school: ABC TRUST
- Name : YOGI     
- Div : 10 CLASS A
+35
 '''
